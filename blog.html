@@ -13,6 +13,14 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <style>
+      *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      code {
+        font-size: 15px;
+      }
+    </style>
   </head>
   <body>
     <header class="nav">
@@ -107,13 +115,49 @@
           </code>
         </p>
       </div>
-      <div class="bg-light text-dark rounded-lg col-12">
+      <div class="bg-light text-dark rounded-1 col-12">
         <h1>JavaScript Event Loop</h1>
         <p></p>
       </div>
-      <div class="bg-light text-dark rounded-lg col-12">
+      <div class="bg-light text-dark rounded-1 col-12 p-2 my-3">
         <h1>How Many way i can get undefiend in JavaScript</h1>
-        <p></p>
+        <p>
+          <br />
+          <code>
+            <br />
+            Example: undefined <br />
+            var myVar; <br />
+            alert(myVar); // undefined
+          </code>
+          <br />
+          <p>If you declear a variable without assigning a value, it will undefined.</p>
+          <br />
+          <code>
+            Example: undefined <br />
+            function Sum(num1, num2) <br />
+            { <br />
+              var result = num1 +num2; <br />
+            } <br />
+            var result = Sum(5, 5); <br />
+            alert(result);// undefined
+          </code>
+          <p>A function without return will undefiend.</p>
+          <br>
+          <code>
+
+          Example: undefined <br>
+
+          function Sum(num1, num2) <br>
+          { <br>
+              return num1 + num2;  // num2 is undefined <br> 
+          } <br>
+
+          Sum(5);
+
+          </code>
+          <p>
+          If you pass less arguments in function call then, that parameter will have undefined value.</p>
+        </p>
       </div>
     </main>
     <script
