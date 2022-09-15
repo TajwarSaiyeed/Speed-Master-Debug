@@ -21,6 +21,14 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: #fff;
   cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 5px 7px;
+  transition: 0.5s ease-in-out;
+}
+.nav a:hover {
+  background: #fff;
+  color: #000;
 }
 
 .box-container {
@@ -29,7 +37,8 @@ body {
 }
 
 #question {
-  height: 100px;
+  min-height: 100px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
