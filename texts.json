@@ -3,5 +3,8 @@
   "Good programmers write code that humans can understand.",
   "First, think about the problem. Then, write the code.",
   "There is no shortcut other than hard work.",
-  "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away."
+  "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+  "If you pass less arguments in function call then, that parameter will have undefined value.",
+  "The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.",
+  "It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed."
 ]

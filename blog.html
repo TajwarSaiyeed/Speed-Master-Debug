@@ -54,7 +54,7 @@
               <td>
                 It’s session-based and works per window or tab. This means that
                 data is stored only for the duration of a session, i.e., until
-                the browser (or tab) is closed
+                the browser (or tab) is closed.
               </td>
             </tr>
             <tr class="table-primary">
@@ -115,21 +115,27 @@
           </code>
         </p>
       </div>
-      <div class="bg-light text-dark rounded-1 col-12">
+      <div class="bg-light text-dark rounded-1 col-12 p-5">
         <h1>JavaScript Event Loop</h1>
-        <p></p>
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-12">
+            <!-- image take form GOOGLE -->
+            <img src="eventloop.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-4 col-12">
+            <p class="fs-3 text-center">The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.</p>
+          </div>
+        </div>
       </div>
       <div class="bg-light text-dark rounded-1 col-12 p-2 my-3">
         <h1>How Many way i can get undefiend in JavaScript</h1>
         <p>
-          <br />
           <code>
-            <br />
             Example: undefined <br />
             var myVar; <br />
             alert(myVar); // undefined
           </code>
-          <p>If you declear a variable without assigning a value, it will undefined.</p>
+          <p class="fs-3">If you declear a variable without assigning a value, it will undefined.</p>
           <br />
           <code>
             Example: undefined <br />
@@ -140,7 +146,7 @@
             var result = Sum(5, 5); <br />
             alert(result);// undefined
           </code>
-          <p>A function without return will undefiend.</p>
+          <p class="fs-3">A function without return will undefiend.</p>
           <br>
           <code>
 
@@ -154,7 +160,7 @@
           Sum(5);
 
           </code>
-          <p>
+          <p class="fs-3">
           If you pass less arguments in function call then, that parameter will have undefined value.</p>
         </p>
       </div>
